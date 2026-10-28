@@ -32,11 +32,7 @@ Full-stack engineer specializing in **high-performance web applications**, **dis
 ### ⚡ &nbsp;Core Tech Stack
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,tailwind,astro,python,fastapi&perline=8&theme=dark" width="340" />
-</a>
-<br/>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=nestjs,java,postgres,redis,docker,mongodb,graphql,wordpress&perline=8&theme=dark" width="340" />
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,tailwind,astro,python,fastapi,nestjs,java,postgres,redis,mongodb,mysql,prisma,graphql,docker,aws,linux,git,wordpress&perline=7&theme=dark" width="350" />
 </a>
 
 </td>
