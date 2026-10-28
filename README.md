@@ -1,12 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&height=60&lines=Praveen+Kumar" alt="Name" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=400&size=16&pause=1000&color=8B949E&center=true&vCenter=true&width=500&height=30&lines=full-stack+engineer+%C2%B7+oss+contributor+%C2%B7+shipping+daily" alt="Tagline" />
-
-</div>
-
-<div align="center">
+<img src="./assets/header.svg" width="100%" alt="Praveen Kumar — Full-Stack Engineer" />
 
 [![Portfolio](https://custom-icon-badges.demolab.com/badge/praveenkumary.com-0d1117?style=for-the-badge&logoColor=58a6ff&logo=globe)](https://praveenkumary.com)&nbsp;
 [![GitHub](https://custom-icon-badges.demolab.com/badge/GitHub-0d1117?style=for-the-badge&logoColor=58a6ff&logo=github)](https://github.com/praveen-kumary)

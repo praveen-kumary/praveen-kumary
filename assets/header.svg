@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="300" fill="#0d1117"/>
+
+  <style>
+    .rain { font-family: 'Courier New', monospace; fill: #00ff41; font-size: 14px; opacity: 0.4; }
+    .rain-dim { font-family: 'Courier New', monospace; fill: #00ff41; font-size: 14px; opacity: 0.15; }
+    .rain-bright { font-family: 'Courier New', monospace; fill: #00ff41; font-size: 14px; opacity: 0.7; }
+    .title { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 700; font-size: 48px; fill: #00ff41; filter: url(#glow); }
+    .subtitle { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 400; font-size: 16px; fill: #8b949e; }
+  </style>
+
+  <!-- Column 1 -->
+  <text class="rain-dim" x="15" y="-20">
+    0 1 ア カ サ 7 ﾊ ﾏ 2
+    <animate attributeName="y" from="-60" to="360" dur="4.2s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 2 -->
+  <text class="rain" x="40" y="-40">
+    ﾀ 3 ﾅ ﾗ 9 ﾜ A B 1
+    <animate attributeName="y" from="-80" to="360" dur="3.5s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 3 -->
+  <text class="rain-bright" x="65" y="-10">
+    { } = &gt; 5 ﾐ ﾋ 8 ﾓ
+    <animate attributeName="y" from="-30" to="360" dur="5.1s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 4 -->
+  <text class="rain-dim" x="90" y="-50">
+    f u n c t i o n (
+    <animate attributeName="y" from="-90" to="360" dur="3.8s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 5 -->
+  <text class="rain" x="115" y="-30">
+    ヤ ユ ヨ 4 ラ リ ル レ
+    <animate attributeName="y" from="-70" to="360" dur="4.6s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 6 -->
+  <text class="rain-dim" x="140" y="-60">
+    c o n s t 0 x F E
+    <animate attributeName="y" from="-100" to="360" dur="3.2s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 7 -->
+  <text class="rain-bright" x="165" y="-20">
+    &lt; / &gt; { } [ ] 7
+    <animate attributeName="y" from="-40" to="360" dur="5.5s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 8 -->
+  <text class="rain" x="190" y="-45">
+    ア イ ウ エ オ 3 B C
+    <animate attributeName="y" from="-85" to="360" dur="4.0s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 9 -->
+  <text class="rain-dim" x="215" y="-15">
+    9 8 7 6 5 4 3 2 1
+    <animate attributeName="y" from="-35" to="360" dur="4.8s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 10 -->
+  <text class="rain" x="240" y="-55">
+    a w a i t . t h e
+    <animate attributeName="y" from="-95" to="360" dur="3.6s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Right side columns -->
+  <!-- Column 11 -->
+  <text class="rain-dim" x="660" y="-25">
+    r e t u r n 0 x A
+    <animate attributeName="y" from="-65" to="360" dur="4.4s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 12 -->
+  <text class="rain-bright" x="685" y="-40">
+    カ キ ク ケ コ 6 D E
+    <animate attributeName="y" from="-80" to="360" dur="3.3s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 13 -->
+  <text class="rain" x="710" y="-10">
+    i m p o r t * a s
+    <animate attributeName="y" from="-50" to="360" dur="5.3s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 14 -->
+  <text class="rain-dim" x="735" y="-55">
+    サ シ ス セ ソ 2 F G
+    <animate attributeName="y" from="-95" to="360" dur="3.9s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 15 -->
+  <text class="rain" x="760" y="-20">
+    e x p o r t { } ;
+    <animate attributeName="y" from="-60" to="360" dur="4.7s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 16 -->
+  <text class="rain-bright" x="785" y="-35">
+    タ チ ツ テ ト 8 H I
+    <animate attributeName="y" from="-75" to="360" dur="3.4s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 17 -->
+  <text class="rain-dim" x="810" y="-50">
+    a s y n c ( ) = &gt;
+    <animate attributeName="y" from="-90" to="360" dur="5.0s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 18 -->
+  <text class="rain" x="835" y="-15">
+    ナ ニ ヌ ネ ノ 4 J K
+    <animate attributeName="y" from="-55" to="360" dur="4.1s" repeatCount="indefinite"/>
+  </text>
+  <!-- Column 19 -->
+  <text class="rain-dim" x="860" y="-40">
+    . g i t p u s h 1
+    <animate attributeName="y" from="-80" to="360" dur="3.7s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Center dark overlay for text readability -->
+  <rect x="250" y="80" width="400" height="140" rx="8" fill="#0d1117" opacity="0.85"/>
+
+  <!-- Main name - appears with fade in -->
+  <text class="title" x="450" y="155" text-anchor="middle" opacity="0">
+    PRAVEEN KUMAR
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="0.5s" fill="freeze"/>
+  </text>
+
+  <!-- Subtitle -->
+  <text class="subtitle" x="450" y="185" text-anchor="middle" opacity="0">
+    full-stack engineer · open-source contributor
+    <animate attributeName="opacity" from="0" to="1" dur="2s" begin="1.5s" fill="freeze"/>
+  </text>
+
+  <!-- Cursor blink -->
+  <rect x="630" y="140" width="2" height="20" fill="#00ff41" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" dur="1.2s" begin="2.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
