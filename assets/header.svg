@@ -1,180 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
   <rect width="900" height="200" fill="#0d1117"/>
+  <style>.c{font-family:'Courier New',monospace;font-size:12px;fill:#00ff41}</style>
 
-  <!-- Subtle grid dots background -->
-  <g opacity="0.08">
-    <circle cx="30" cy="30" r="1" fill="#58a6ff"/><circle cx="60" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="90" cy="30" r="1" fill="#58a6ff"/><circle cx="120" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="150" cy="30" r="1" fill="#58a6ff"/><circle cx="180" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="210" cy="30" r="1" fill="#58a6ff"/><circle cx="240" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="270" cy="30" r="1" fill="#58a6ff"/><circle cx="300" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="330" cy="30" r="1" fill="#58a6ff"/><circle cx="360" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="390" cy="30" r="1" fill="#58a6ff"/><circle cx="420" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="450" cy="30" r="1" fill="#58a6ff"/><circle cx="480" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="510" cy="30" r="1" fill="#58a6ff"/><circle cx="540" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="570" cy="30" r="1" fill="#58a6ff"/><circle cx="600" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="630" cy="30" r="1" fill="#58a6ff"/><circle cx="660" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="690" cy="30" r="1" fill="#58a6ff"/><circle cx="720" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="750" cy="30" r="1" fill="#58a6ff"/><circle cx="780" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="810" cy="30" r="1" fill="#58a6ff"/><circle cx="840" cy="30" r="1" fill="#58a6ff"/>
-    <circle cx="870" cy="30" r="1" fill="#58a6ff"/>
+  <!-- Left columns -->
+  <g opacity=".2"><text class="c" x="10" y="0">0</text><text class="c" x="10" y="15">ア</text><text class="c" x="10" y="30">1</text><text class="c" x="10" y="45">カ</text><text class="c" x="10" y="60">7</text><text class="c" x="10" y="75">サ</text><text class="c" x="10" y="90">f</text><text class="c" x="10" y="105">{</text><text class="c" x="10" y="120">3</text><text class="c" x="10" y="135">ﾅ</text><text class="c" x="10" y="150">9</text><text class="c" x="10" y="165">}</text><text class="c" x="10" y="180">ア</text><text class="c" x="10" y="195">5</text><animateTransform attributeName="transform" type="translate" from="0,-200" to="0,200" dur="4.5s" repeatCount="indefinite"/></g>
+  <g opacity=".35"><text class="c" x="30" y="0">c</text><text class="c" x="30" y="15">o</text><text class="c" x="30" y="30">n</text><text class="c" x="30" y="45">s</text><text class="c" x="30" y="60">t</text><text class="c" x="30" y="75">ヤ</text><text class="c" x="30" y="90">2</text><text class="c" x="30" y="105">ユ</text><text class="c" x="30" y="120">0</text><text class="c" x="30" y="135">x</text><text class="c" x="30" y="150">F</text><text class="c" x="30" y="165">ケ</text><text class="c" x="30" y="180">4</text><animateTransform attributeName="transform" type="translate" from="0,-180" to="0,200" dur="3.2s" repeatCount="indefinite"/></g>
+  <g opacity=".12"><text class="c" x="50" y="0">タ</text><text class="c" x="50" y="15">5</text><text class="c" x="50" y="30">チ</text><text class="c" x="50" y="45">=</text><text class="c" x="50" y="60">ツ</text><text class="c" x="50" y="75">8</text><text class="c" x="50" y="90">テ</text><text class="c" x="50" y="105">&gt;</text><text class="c" x="50" y="120">ト</text><text class="c" x="50" y="135">1</text><text class="c" x="50" y="150">ナ</text><text class="c" x="50" y="165">4</text><text class="c" x="50" y="180">ニ</text><text class="c" x="50" y="195">7</text><animateTransform attributeName="transform" type="translate" from="0,-210" to="0,200" dur="5.8s" repeatCount="indefinite"/></g>
+  <g opacity=".3"><text class="c" x="70" y="0">(</text><text class="c" x="70" y="15">)</text><text class="c" x="70" y="30">ラ</text><text class="c" x="70" y="45">6</text><text class="c" x="70" y="60">リ</text><text class="c" x="70" y="75">=</text><text class="c" x="70" y="90">ル</text><text class="c" x="70" y="105">0</text><text class="c" x="70" y="120">レ</text><text class="c" x="70" y="135">;</text><text class="c" x="70" y="150">ロ</text><text class="c" x="70" y="165">3</text><animateTransform attributeName="transform" type="translate" from="0,-160" to="0,200" dur="3.8s" repeatCount="indefinite"/></g>
+  <g opacity=".18"><text class="c" x="90" y="0">i</text><text class="c" x="90" y="15">m</text><text class="c" x="90" y="30">p</text><text class="c" x="90" y="45">o</text><text class="c" x="90" y="60">r</text><text class="c" x="90" y="75">t</text><text class="c" x="90" y="90">ミ</text><text class="c" x="90" y="105">3</text><text class="c" x="90" y="120">ヒ</text><text class="c" x="90" y="135">7</text><text class="c" x="90" y="150">モ</text><text class="c" x="90" y="165">1</text><text class="c" x="90" y="180">ヘ</text><animateTransform attributeName="transform" type="translate" from="0,-190" to="0,200" dur="4.9s" repeatCount="indefinite"/></g>
+  <g opacity=".25"><text class="c" x="110" y="0">ワ</text><text class="c" x="110" y="15">A</text><text class="c" x="110" y="30">B</text><text class="c" x="110" y="45">ヲ</text><text class="c" x="110" y="60">4</text><text class="c" x="110" y="75">ン</text><text class="c" x="110" y="90">{</text><text class="c" x="110" y="105">2</text><text class="c" x="110" y="120">}</text><text class="c" x="110" y="135">ア</text><text class="c" x="110" y="150">9</text><text class="c" x="110" y="165">サ</text><animateTransform attributeName="transform" type="translate" from="0,-170" to="0,200" dur="3.5s" repeatCount="indefinite"/></g>
+  <g opacity=".15"><text class="c" x="130" y="0">a</text><text class="c" x="130" y="15">w</text><text class="c" x="130" y="30">a</text><text class="c" x="130" y="45">i</text><text class="c" x="130" y="60">t</text><text class="c" x="130" y="75">カ</text><text class="c" x="130" y="90">9</text><text class="c" x="130" y="105">キ</text><text class="c" x="130" y="120">0</text><text class="c" x="130" y="135">ク</text><text class="c" x="130" y="150">1</text><text class="c" x="130" y="165">ケ</text><text class="c" x="130" y="180">6</text><text class="c" x="130" y="195">コ</text><animateTransform attributeName="transform" type="translate" from="0,-200" to="0,200" dur="5.2s" repeatCount="indefinite"/></g>
+  <g opacity=".3"><text class="c" x="150" y="0">サ</text><text class="c" x="150" y="15">6</text><text class="c" x="150" y="30">シ</text><text class="c" x="150" y="45">&lt;</text><text class="c" x="150" y="60">ス</text><text class="c" x="150" y="75">3</text><text class="c" x="150" y="90">セ</text><text class="c" x="150" y="105">/</text><text class="c" x="150" y="120">ソ</text><text class="c" x="150" y="135">8</text><text class="c" x="150" y="150">タ</text><text class="c" x="150" y="165">2</text><animateTransform attributeName="transform" type="translate" from="0,-165" to="0,200" dur="3.4s" repeatCount="indefinite"/></g>
+  <g opacity=".1"><text class="c" x="170" y="0">f</text><text class="c" x="170" y="15">n</text><text class="c" x="170" y="30">チ</text><text class="c" x="170" y="45">5</text><text class="c" x="170" y="60">ツ</text><text class="c" x="170" y="75">=</text><text class="c" x="170" y="90">テ</text><text class="c" x="170" y="105">0</text><text class="c" x="170" y="120">ト</text><text class="c" x="170" y="135">;</text><text class="c" x="170" y="150">7</text><text class="c" x="170" y="165">ナ</text><text class="c" x="170" y="180">4</text><animateTransform attributeName="transform" type="translate" from="0,-185" to="0,200" dur="6.1s" repeatCount="indefinite"/></g>
+  <g opacity=".22"><text class="c" x="190" y="0">[</text><text class="c" x="190" y="15">]</text><text class="c" x="190" y="30">ハ</text><text class="c" x="190" y="45">3</text><text class="c" x="190" y="60">ヒ</text><text class="c" x="190" y="75">6</text><text class="c" x="190" y="90">フ</text><text class="c" x="190" y="105">9</text><text class="c" x="190" y="120">ヘ</text><text class="c" x="190" y="135">0</text><text class="c" x="190" y="150">ホ</text><text class="c" x="190" y="165">2</text><animateTransform attributeName="transform" type="translate" from="0,-155" to="0,200" dur="4.1s" repeatCount="indefinite"/></g>
+  <g opacity=".28"><text class="c" x="210" y="0">g</text><text class="c" x="210" y="15">i</text><text class="c" x="210" y="30">t</text><text class="c" x="210" y="45">マ</text><text class="c" x="210" y="60">5</text><text class="c" x="210" y="75">ミ</text><text class="c" x="210" y="90">1</text><text class="c" x="210" y="105">ム</text><text class="c" x="210" y="120">{</text><text class="c" x="210" y="135">7</text><text class="c" x="210" y="150">メ</text><text class="c" x="210" y="165">3</text><text class="c" x="210" y="180">モ</text><animateTransform attributeName="transform" type="translate" from="0,-175" to="0,200" dur="3.6s" repeatCount="indefinite"/></g>
+  <g opacity=".14"><text class="c" x="230" y="0">ヨ</text><text class="c" x="230" y="15">2</text><text class="c" x="230" y="30">ユ</text><text class="c" x="230" y="45">4</text><text class="c" x="230" y="60">ヤ</text><text class="c" x="230" y="75">=</text><text class="c" x="230" y="90">ワ</text><text class="c" x="230" y="105">0</text><text class="c" x="230" y="120">ヲ</text><text class="c" x="230" y="135">;</text><text class="c" x="230" y="150">ン</text><text class="c" x="230" y="165">8</text><text class="c" x="230" y="180">6</text><text class="c" x="230" y="195">ア</text><animateTransform attributeName="transform" type="translate" from="0,-195" to="0,200" dur="5.5s" repeatCount="indefinite"/></g>
 
-    <circle cx="30" cy="60" r="1" fill="#58a6ff"/><circle cx="60" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="90" cy="60" r="1" fill="#58a6ff"/><circle cx="120" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="150" cy="60" r="1" fill="#58a6ff"/><circle cx="180" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="210" cy="60" r="1" fill="#58a6ff"/><circle cx="240" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="270" cy="60" r="1" fill="#58a6ff"/><circle cx="300" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="330" cy="60" r="1" fill="#58a6ff"/><circle cx="360" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="390" cy="60" r="1" fill="#58a6ff"/><circle cx="420" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="450" cy="60" r="1" fill="#58a6ff"/><circle cx="480" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="510" cy="60" r="1" fill="#58a6ff"/><circle cx="540" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="570" cy="60" r="1" fill="#58a6ff"/><circle cx="600" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="630" cy="60" r="1" fill="#58a6ff"/><circle cx="660" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="690" cy="60" r="1" fill="#58a6ff"/><circle cx="720" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="750" cy="60" r="1" fill="#58a6ff"/><circle cx="780" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="810" cy="60" r="1" fill="#58a6ff"/><circle cx="840" cy="60" r="1" fill="#58a6ff"/>
-    <circle cx="870" cy="60" r="1" fill="#58a6ff"/>
+  <!-- Right columns -->
+  <g opacity=".25"><text class="c" x="670" y="0">r</text><text class="c" x="670" y="15">e</text><text class="c" x="670" y="30">t</text><text class="c" x="670" y="45">u</text><text class="c" x="670" y="60">r</text><text class="c" x="670" y="75">n</text><text class="c" x="670" y="90">ケ</text><text class="c" x="670" y="105">5</text><text class="c" x="670" y="120">コ</text><text class="c" x="670" y="135">0</text><text class="c" x="670" y="150">サ</text><text class="c" x="670" y="165">7</text><animateTransform attributeName="transform" type="translate" from="0,-170" to="0,200" dur="3.7s" repeatCount="indefinite"/></g>
+  <g opacity=".18"><text class="c" x="690" y="0">マ</text><text class="c" x="690" y="15">7</text><text class="c" x="690" y="30">ミ</text><text class="c" x="690" y="45">=</text><text class="c" x="690" y="60">ム</text><text class="c" x="690" y="75">2</text><text class="c" x="690" y="90">メ</text><text class="c" x="690" y="105">&gt;</text><text class="c" x="690" y="120">モ</text><text class="c" x="690" y="135">4</text><text class="c" x="690" y="150">ヤ</text><text class="c" x="690" y="165">1</text><text class="c" x="690" y="180">ユ</text><text class="c" x="690" y="195">9</text><animateTransform attributeName="transform" type="translate" from="0,-200" to="0,200" dur="5.5s" repeatCount="indefinite"/></g>
+  <g opacity=".35"><text class="c" x="710" y="0">f</text><text class="c" x="710" y="15">u</text><text class="c" x="710" y="30">n</text><text class="c" x="710" y="45">c</text><text class="c" x="710" y="60">ナ</text><text class="c" x="710" y="75">8</text><text class="c" x="710" y="90">ニ</text><text class="c" x="710" y="105">0</text><text class="c" x="710" y="120">ヌ</text><text class="c" x="710" y="135">;</text><text class="c" x="710" y="150">ネ</text><text class="c" x="710" y="165">3</text><animateTransform attributeName="transform" type="translate" from="0,-160" to="0,200" dur="3.1s" repeatCount="indefinite"/></g>
+  <g opacity=".12"><text class="c" x="730" y="0">[</text><text class="c" x="730" y="15">]</text><text class="c" x="730" y="30">ハ</text><text class="c" x="730" y="45">3</text><text class="c" x="730" y="60">ヒ</text><text class="c" x="730" y="75">6</text><text class="c" x="730" y="90">フ</text><text class="c" x="730" y="105">9</text><text class="c" x="730" y="120">ヘ</text><text class="c" x="730" y="135">0</text><text class="c" x="730" y="150">ホ</text><text class="c" x="730" y="165">5</text><text class="c" x="730" y="180">マ</text><text class="c" x="730" y="195">2</text><animateTransform attributeName="transform" type="translate" from="0,-195" to="0,200" dur="4.7s" repeatCount="indefinite"/></g>
+  <g opacity=".3"><text class="c" x="750" y="0">g</text><text class="c" x="750" y="15">i</text><text class="c" x="750" y="30">t</text><text class="c" x="750" y="45">ラ</text><text class="c" x="750" y="60">5</text><text class="c" x="750" y="75">リ</text><text class="c" x="750" y="90">1</text><text class="c" x="750" y="105">ル</text><text class="c" x="750" y="120">{</text><text class="c" x="750" y="135">7</text><text class="c" x="750" y="150">レ</text><text class="c" x="750" y="165">4</text><animateTransform attributeName="transform" type="translate" from="0,-155" to="0,200" dur="3.6s" repeatCount="indefinite"/></g>
+  <g opacity=".2"><text class="c" x="770" y="0">ヨ</text><text class="c" x="770" y="15">2</text><text class="c" x="770" y="30">ユ</text><text class="c" x="770" y="45">4</text><text class="c" x="770" y="60">ヤ</text><text class="c" x="770" y="75">=</text><text class="c" x="770" y="90">ワ</text><text class="c" x="770" y="105">0</text><text class="c" x="770" y="120">ヲ</text><text class="c" x="770" y="135">;</text><text class="c" x="770" y="150">ン</text><text class="c" x="770" y="165">6</text><text class="c" x="770" y="180">タ</text><animateTransform attributeName="transform" type="translate" from="0,-185" to="0,200" dur="4.3s" repeatCount="indefinite"/></g>
+  <g opacity=".28"><text class="c" x="790" y="0">a</text><text class="c" x="790" y="15">s</text><text class="c" x="790" y="30">y</text><text class="c" x="790" y="45">n</text><text class="c" x="790" y="60">c</text><text class="c" x="790" y="75">タ</text><text class="c" x="790" y="90">6</text><text class="c" x="790" y="105">チ</text><text class="c" x="790" y="120">3</text><text class="c" x="790" y="135">ツ</text><text class="c" x="790" y="150">8</text><text class="c" x="790" y="165">テ</text><animateTransform attributeName="transform" type="translate" from="0,-165" to="0,200" dur="3.9s" repeatCount="indefinite"/></g>
+  <g opacity=".15"><text class="c" x="810" y="0">p</text><text class="c" x="810" y="15">u</text><text class="c" x="810" y="30">s</text><text class="c" x="810" y="45">h</text><text class="c" x="810" y="60">ト</text><text class="c" x="810" y="75">1</text><text class="c" x="810" y="90">ナ</text><text class="c" x="810" y="105">9</text><text class="c" x="810" y="120">ニ</text><text class="c" x="810" y="135">4</text><text class="c" x="810" y="150">ヌ</text><text class="c" x="810" y="165">7</text><text class="c" x="810" y="180">ネ</text><text class="c" x="810" y="195">0</text><animateTransform attributeName="transform" type="translate" from="0,-200" to="0,200" dur="5.0s" repeatCount="indefinite"/></g>
+  <g opacity=".22"><text class="c" x="830" y="0">ノ</text><text class="c" x="830" y="15">2</text><text class="c" x="830" y="30">ハ</text><text class="c" x="830" y="45">=</text><text class="c" x="830" y="60">ヒ</text><text class="c" x="830" y="75">5</text><text class="c" x="830" y="90">フ</text><text class="c" x="830" y="105">8</text><text class="c" x="830" y="120">ヘ</text><text class="c" x="830" y="135">3</text><text class="c" x="830" y="150">ホ</text><text class="c" x="830" y="165">6</text><animateTransform attributeName="transform" type="translate" from="0,-170" to="0,200" dur="3.3s" repeatCount="indefinite"/></g>
+  <g opacity=".1"><text class="c" x="855" y="0">{</text><text class="c" x="855" y="15">}</text><text class="c" x="855" y="30">マ</text><text class="c" x="855" y="45">1</text><text class="c" x="855" y="60">ミ</text><text class="c" x="855" y="75">4</text><text class="c" x="855" y="90">ム</text><text class="c" x="855" y="105">7</text><text class="c" x="855" y="120">メ</text><text class="c" x="855" y="135">0</text><text class="c" x="855" y="150">モ</text><text class="c" x="855" y="165">3</text><text class="c" x="855" y="180">ヤ</text><text class="c" x="855" y="195">9</text><animateTransform attributeName="transform" type="translate" from="0,-210" to="0,200" dur="5.9s" repeatCount="indefinite"/></g>
+  <g opacity=".32"><text class="c" x="878" y="0">.</text><text class="c" x="878" y="15">g</text><text class="c" x="878" y="30">i</text><text class="c" x="878" y="45">t</text><text class="c" x="878" y="60">ユ</text><text class="c" x="878" y="75">6</text><text class="c" x="878" y="90">ヨ</text><text class="c" x="878" y="105">2</text><text class="c" x="878" y="120">ラ</text><text class="c" x="878" y="135">5</text><text class="c" x="878" y="150">リ</text><text class="c" x="878" y="165">8</text><animateTransform attributeName="transform" type="translate" from="0,-155" to="0,200" dur="3.4s" repeatCount="indefinite"/></g>
 
-    <circle cx="30" cy="90" r="1" fill="#58a6ff"/><circle cx="60" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="90" cy="90" r="1" fill="#58a6ff"/><circle cx="120" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="150" cy="90" r="1" fill="#58a6ff"/><circle cx="180" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="210" cy="90" r="1" fill="#58a6ff"/><circle cx="240" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="270" cy="90" r="1" fill="#58a6ff"/><circle cx="300" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="330" cy="90" r="1" fill="#58a6ff"/><circle cx="360" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="390" cy="90" r="1" fill="#58a6ff"/><circle cx="420" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="450" cy="90" r="1" fill="#58a6ff"/><circle cx="480" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="510" cy="90" r="1" fill="#58a6ff"/><circle cx="540" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="570" cy="90" r="1" fill="#58a6ff"/><circle cx="600" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="630" cy="90" r="1" fill="#58a6ff"/><circle cx="660" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="690" cy="90" r="1" fill="#58a6ff"/><circle cx="720" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="750" cy="90" r="1" fill="#58a6ff"/><circle cx="780" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="810" cy="90" r="1" fill="#58a6ff"/><circle cx="840" cy="90" r="1" fill="#58a6ff"/>
-    <circle cx="870" cy="90" r="1" fill="#58a6ff"/>
+  <!-- Center dark overlay for readability -->
+  <rect x="245" y="0" width="410" height="200" fill="#0d1117" opacity=".85"/>
+  <rect x="235" y="0" width="10" height="200" fill="#0d1117" opacity=".5"/>
+  <rect x="655" y="0" width="15" height="200" fill="#0d1117" opacity=".5"/>
 
-    <circle cx="30" cy="120" r="1" fill="#58a6ff"/><circle cx="60" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="90" cy="120" r="1" fill="#58a6ff"/><circle cx="120" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="150" cy="120" r="1" fill="#58a6ff"/><circle cx="180" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="210" cy="120" r="1" fill="#58a6ff"/><circle cx="240" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="270" cy="120" r="1" fill="#58a6ff"/><circle cx="300" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="330" cy="120" r="1" fill="#58a6ff"/><circle cx="360" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="390" cy="120" r="1" fill="#58a6ff"/><circle cx="420" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="450" cy="120" r="1" fill="#58a6ff"/><circle cx="480" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="510" cy="120" r="1" fill="#58a6ff"/><circle cx="540" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="570" cy="120" r="1" fill="#58a6ff"/><circle cx="600" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="630" cy="120" r="1" fill="#58a6ff"/><circle cx="660" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="690" cy="120" r="1" fill="#58a6ff"/><circle cx="720" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="750" cy="120" r="1" fill="#58a6ff"/><circle cx="780" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="810" cy="120" r="1" fill="#58a6ff"/><circle cx="840" cy="120" r="1" fill="#58a6ff"/>
-    <circle cx="870" cy="120" r="1" fill="#58a6ff"/>
-
-    <circle cx="30" cy="150" r="1" fill="#58a6ff"/><circle cx="60" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="90" cy="150" r="1" fill="#58a6ff"/><circle cx="120" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="150" cy="150" r="1" fill="#58a6ff"/><circle cx="180" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="210" cy="150" r="1" fill="#58a6ff"/><circle cx="240" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="270" cy="150" r="1" fill="#58a6ff"/><circle cx="300" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="330" cy="150" r="1" fill="#58a6ff"/><circle cx="360" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="390" cy="150" r="1" fill="#58a6ff"/><circle cx="420" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="450" cy="150" r="1" fill="#58a6ff"/><circle cx="480" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="510" cy="150" r="1" fill="#58a6ff"/><circle cx="540" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="570" cy="150" r="1" fill="#58a6ff"/><circle cx="600" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="630" cy="150" r="1" fill="#58a6ff"/><circle cx="660" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="690" cy="150" r="1" fill="#58a6ff"/><circle cx="720" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="750" cy="150" r="1" fill="#58a6ff"/><circle cx="780" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="810" cy="150" r="1" fill="#58a6ff"/><circle cx="840" cy="150" r="1" fill="#58a6ff"/>
-    <circle cx="870" cy="150" r="1" fill="#58a6ff"/>
-
-    <circle cx="30" cy="170" r="1" fill="#58a6ff"/><circle cx="60" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="90" cy="170" r="1" fill="#58a6ff"/><circle cx="120" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="150" cy="170" r="1" fill="#58a6ff"/><circle cx="180" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="210" cy="170" r="1" fill="#58a6ff"/><circle cx="240" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="270" cy="170" r="1" fill="#58a6ff"/><circle cx="300" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="330" cy="170" r="1" fill="#58a6ff"/><circle cx="360" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="390" cy="170" r="1" fill="#58a6ff"/><circle cx="420" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="450" cy="170" r="1" fill="#58a6ff"/><circle cx="480" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="510" cy="170" r="1" fill="#58a6ff"/><circle cx="540" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="570" cy="170" r="1" fill="#58a6ff"/><circle cx="600" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="630" cy="170" r="1" fill="#58a6ff"/><circle cx="660" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="690" cy="170" r="1" fill="#58a6ff"/><circle cx="720" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="750" cy="170" r="1" fill="#58a6ff"/><circle cx="780" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="810" cy="170" r="1" fill="#58a6ff"/><circle cx="840" cy="170" r="1" fill="#58a6ff"/>
-    <circle cx="870" cy="170" r="1" fill="#58a6ff"/>
-  </g>
-
-  <!-- Animated pulse dots - scattered, subtle -->
-  <circle cx="120" cy="60" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.4;0" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="300" cy="90" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.5;0" dur="2.5s" begin="0.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="540" cy="45" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.3;0" dur="4s" begin="1.2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="690" cy="120" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.6;0" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="780" cy="55" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.35;0" dur="3.5s" begin="1.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="180" cy="140" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.45;0" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="420" cy="155" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.4;0" dur="2.7s" begin="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="600" cy="160" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.5;0" dur="3.8s" begin="1s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="840" cy="140" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.3;0" dur="2.3s" begin="1.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="60" cy="100" r="1.5" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0.55;0" dur="3.1s" begin="0.3s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Animated connecting lines -->
-  <line x1="120" y1="60" x2="300" y2="90" stroke="#58a6ff" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.15;0" dur="4s" begin="0.5s" repeatCount="indefinite"/>
-  </line>
-  <line x1="540" y1="45" x2="690" y2="120" stroke="#58a6ff" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.12;0" dur="3.5s" begin="1s" repeatCount="indefinite"/>
-  </line>
-  <line x1="300" y1="90" x2="420" y2="155" stroke="#58a6ff" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.1;0" dur="4.2s" begin="1.5s" repeatCount="indefinite"/>
-  </line>
-  <line x1="780" y1="55" x2="840" y2="140" stroke="#58a6ff" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.13;0" dur="3s" begin="0.8s" repeatCount="indefinite"/>
-  </line>
-  <line x1="60" y1="100" x2="180" y2="140" stroke="#58a6ff" stroke-width="0.5" opacity="0">
-    <animate attributeName="opacity" values="0;0.14;0" dur="3.7s" begin="2s" repeatCount="indefinite"/>
-  </line>
-
-  <!-- Horizontal accent line -->
-  <rect x="0" y="195" width="900" height="1" fill="#58a6ff" opacity="0.15"/>
-  <rect x="0" y="196" width="0" height="1" fill="#58a6ff" opacity="0.4">
-    <animate attributeName="width" from="0" to="900" dur="3s" fill="freeze"/>
-  </rect>
-
-  <!-- Main name -->
-  <text x="450" y="90" text-anchor="middle" font-family="'Segoe UI', -apple-system, Arial, sans-serif" font-weight="700" font-size="44" fill="#c9d1d9" opacity="0">
-    Praveen Kumar
-    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.3s" fill="freeze"/>
-  </text>
+  <!-- Name -->
+  <text x="450" y="85" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="700" font-size="42" fill="#00ff41" opacity="0" filter="url(#g)">PRAVEEN KUMAR<animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="0.5s" fill="freeze"/></text>
 
   <!-- Subtitle -->
-  <text x="450" y="125" text-anchor="middle" font-family="'Segoe UI', -apple-system, Arial, sans-serif" font-weight="400" font-size="16" fill="#8b949e" opacity="0">
-    full-stack engineer · open-source contributor · shipping daily
-    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="1s" fill="freeze"/>
-  </text>
+  <text x="450" y="120" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-weight="400" font-size="14" fill="#8b949e" opacity="0">full-stack engineer · open-source contributor<animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="1.2s" fill="freeze"/></text>
 
-  <!-- Terminal prompt -->
-  <text x="450" y="160" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#58a6ff" opacity="0">
-    ~/praveen-kumar $ git push origin main ✓
-    <animate attributeName="opacity" from="0" to="0.6" dur="1s" begin="2s" fill="freeze"/>
-  </text>
+  <!-- Terminal line -->
+  <text x="450" y="155" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#00ff41" opacity="0">$ git push origin main<animate attributeName="opacity" from="0" to=".5" dur="1s" begin="2s" fill="freeze"/></text>
 
-  <!-- Blinking cursor -->
-  <rect x="572" y="149" width="7" height="14" fill="#58a6ff" opacity="0">
-    <animate attributeName="opacity" values="0;0;0.6;0.6;0" keyTimes="0;0.45;0.5;0.95;1" dur="1s" begin="3s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Cursor -->
+  <rect x="517" y="144" width="7" height="13" fill="#00ff41" opacity="0"><animate attributeName="opacity" values="0;0;.5;.5;0" keyTimes="0;.45;.5;.95;1" dur="1s" begin="3s" repeatCount="indefinite"/></rect>
+
+  <!-- Glow filter -->
+  <defs><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
 </svg>
