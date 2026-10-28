@@ -29,11 +29,11 @@ Currently shipping PRs to **8+ major open-source repos** including Next.js, Astr
 ### ⚡ &nbsp;Stack
 
 <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,python&perline=5&theme=dark" width="200" />
+<img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,tailwind,astro,python,html&perline=8&theme=dark" width="340" />
 </a>
 <br/>
 <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=nestjs,postgres,redis,docker,java&perline=5&theme=dark" width="200" />
+<img src="https://skillicons.dev/icons?i=nestjs,java,postgres,redis,docker,mongodb,graphql,wordpress&perline=8&theme=dark" width="340" />
 </a>
 
 </td></tr></table>
