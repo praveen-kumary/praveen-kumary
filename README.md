@@ -1,82 +1,106 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,100:58a6ff&height=150&section=header&text=Praveen%20Kumar&fontSize=50&fontColor=c9d1d9&animation=twinkling&fontAlignY=45&fontFamily=Poppins" width="100%" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=32&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&height=60&lines=Praveen+Kumar" alt="Name" />
 
-<br/>
-
-<samp>full-stack engineer · open-source contributor · building things that scale</samp>
-
-<br/><br/>
-
-[![Portfolio](https://img.shields.io/badge/praveenkumary.com-c9d1d9?style=flat&logo=vercel&logoColor=0d1117)](https://praveenkumary.com)
-&nbsp;&nbsp;
-[![GitHub](https://img.shields.io/badge/praveen--kumary-c9d1d9?style=flat&logo=github&logoColor=0d1117)](https://github.com/praveen-kumary)
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=400&size=16&pause=1000&color=8B949E&center=true&vCenter=true&width=500&height=30&lines=full-stack+engineer+%C2%B7+oss+contributor+%C2%B7+shipping+daily" alt="Tagline" />
 
 </div>
 
-<br/>
+<div align="center">
 
-```ts
-// about.ts
-const me = {
-  stack: ["TypeScript", "Next.js", "Node.js", "Python", "Java"],
-  focus: "scalable systems & open-source impact",
-  shipping: true,
-};
+[![Portfolio](https://custom-icon-badges.demolab.com/badge/praveenkumary.com-0d1117?style=for-the-badge&logoColor=58a6ff&logo=globe)](https://praveenkumary.com)&nbsp;
+[![GitHub](https://custom-icon-badges.demolab.com/badge/GitHub-0d1117?style=for-the-badge&logoColor=58a6ff&logo=github)](https://github.com/praveen-kumary)
+
+</div>
+
+##
+
+<div align="center">
+<table><tr><td valign="top" width="60%">
+
+### 🧑‍💻 &nbsp;About
+
+I build **web applications**, **data systems**, and **open-source tools** with TypeScript, Next.js, Node.js, Python, and Java.
+
+Currently shipping PRs to **8+ major open-source repos** including Next.js, Astro, Hono, Zod, and Drizzle ORM.
+
+</td><td valign="top" width="40%">
+
+### ⚡ &nbsp;Stack
+
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,python&perline=5&theme=dark" width="200" />
+</a>
+<br/>
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=nestjs,postgres,redis,docker,java&perline=5&theme=dark" width="200" />
+</a>
+
+</td></tr></table>
+</div>
+
+##
+
+### 🌍 &nbsp;Open-Source
+
+```diff
++ vercel/next.js           ESLint plugin — accurate app directory path resolution
++ withastro/astro           Framework improvements
++ honojs/hono               Web framework enhancements
++ colinhacks/zod            Schema validation fixes
++ drizzle-team/drizzle-orm  ORM contributions
++ calcom/cal.diy            Scheduling infrastructure features
++ formbricks/formbricks     Survey platform improvements
++ hmislk/hmis               Pharmacy return value recalculation fix
 ```
 
-<br/>
+##
+
+### 🚀 &nbsp;Projects
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,nextjs,react,nodejs,nestjs,python,java,postgres,redis,docker&theme=dark" />
-  </a>
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/praveen-kumary/mototribe"><b>🏍️ MotoTribe</b></a><br/>
+<sub>Motorcycle community & marketplace</sub><br/><br/>
+<img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js" />
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=fff" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=fff" />
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/praveen-kumary/profitmax-algo-trading"><b>📈 ProfitMax</b></a><br/>
+<sub>Algorithmic trading automation</sub><br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=fff" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=fff" />
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/praveen-kumary/jobsflow-ai-aggregator"><b>🤖 JobsFlow AI</b></a><br/>
+<sub>AI-powered job aggregation engine</sub><br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=fff" />
+<img src="https://img.shields.io/badge/ML-FF6F00?style=flat-square&logo=tensorflow&logoColor=fff" />
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/praveen-kumary/cinedhoom"><b>🎬 CineDhoom</b></a><br/>
+<sub>Movie discovery platform</sub><br/><br/>
+<img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff" />
+</td>
+</tr>
+</table>
 </div>
 
-<br/>
-
----
-
-<br/>
-
-#### open-source contributions
-
-| repo | impact |
-|:-----|:-------|
-| [`vercel/next.js`](https://github.com/vercel/next.js) | ESLint plugin path resolution fix |
-| [`withastro/astro`](https://github.com/withastro/astro) | Framework improvements |
-| [`honojs/hono`](https://github.com/honojs/hono) | Web framework enhancements |
-| [`colinhacks/zod`](https://github.com/colinhacks/zod) | Schema validation fixes |
-| [`drizzle-team/drizzle-orm`](https://github.com/drizzle-team/drizzle-orm) | ORM contributions |
-| [`calcom/cal.diy`](https://github.com/calcom/cal.diy) | Scheduling infrastructure |
-| [`hmislk/hmis`](https://github.com/hmislk/hmis) | Healthcare system — pharmacy return value fix |
-
-<br/>
-
-#### projects
-
-| | |
-|:--|:--|
-| [**MotoTribe**](https://github.com/praveen-kumary/mototribe) — motorcycle community & marketplace | `Next.js` `NestJS` `PostgreSQL` `Redis` |
-| [**ProfitMax**](https://github.com/praveen-kumary/profitmax-algo-trading) — algorithmic trading platform | `Python` `FastAPI` |
-| [**JobsFlow AI**](https://github.com/praveen-kumary/jobsflow-ai-aggregator) — AI job aggregation engine | `Python` `ML` |
-| [**CineDhoom**](https://github.com/praveen-kumary/cinedhoom) — movie discovery platform | `Next.js` `TypeScript` |
-
-<br/>
-
----
-
-<br/>
+##
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=praveen-kumary&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&count_private=true&hide_title=true" />
-&nbsp;&nbsp;&nbsp;
-<img height="160" src="https://github-readme-streak-stats.herokuapp.com?user=praveen-kumary&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" />
+<img width="47%" src="https://github-readme-stats.vercel.app/api?username=praveen-kumary&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true" />
+&nbsp;&nbsp;
+<img width="47%" src="https://github-readme-streak-stats.herokuapp.com?user=praveen-kumary&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
 
 </div>
-
-<br/>
 
 <div align="center">
 
@@ -88,8 +112,6 @@ const me = {
 
 </div>
 
-<br/>
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=58a6ff&height=40&section=footer&text=always%20shipping&fontSize=14&fontColor=8b949e&fontFamily=Poppins" />
+<sub>always shipping · open to collaboration</sub>
 </div>
