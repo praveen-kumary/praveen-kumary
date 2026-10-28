@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Praveen Kumar — Full-Stack Engineer" />
+<img src="https://raw.githubusercontent.com/praveen-kumary/praveen-kumary/main/assets/header.svg" width="100%" alt="Praveen Kumar — Full-Stack Engineer" />
 
 [![Portfolio](https://custom-icon-badges.demolab.com/badge/praveenkumary.com-0d1117?style=for-the-badge&logoColor=58a6ff&logo=globe)](https://praveenkumary.com)&nbsp;
 [![GitHub](https://custom-icon-badges.demolab.com/badge/GitHub-0d1117?style=for-the-badge&logoColor=58a6ff&logo=github)](https://github.com/praveen-kumary)
