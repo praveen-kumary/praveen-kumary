@@ -163,9 +163,9 @@ Movie discovery platform tracking theatrical releases, streaming availability, a
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=praveen-kumary&show_icons=true&theme=github_dark&hide_border=true&bg_color=040806&title_color=00ff66&icon_color=00ff66&text_color=c9d1d9&count_private=true" />
+<img width="48%" src="https://github-stats-extended.vercel.app/api?username=praveen-kumary&show_icons=true&theme=github_dark&hide_border=true&bg_color=040806&title_color=00ff66&icon_color=00ff66&text_color=c9d1d9&count_private=true&cache_seconds=1800" />
 &nbsp;
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com?user=praveen-kumary&theme=dark&hide_border=true&background=040806&stroke=10b981&ring=00ff66&fire=00ff66&currStreakLabel=00ff66" />
+<img width="48%" src="https://streak-stats.demolab.com?user=praveen-kumary&theme=dark&hide_border=true&background=040806&stroke=10b981&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&cache_seconds=1800" />
 
 <br/><br/>
 
