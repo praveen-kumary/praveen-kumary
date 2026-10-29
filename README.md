@@ -18,13 +18,13 @@
 <tr>
 <td valign="top" width="58%">
 
-### 🧑‍💻 &nbsp;Engineering Profile
+### 🧑‍💻 &nbsp;About Me
 
-Full-stack engineer specializing in **high-performance web applications**, **distributed data pipelines**, and **developer tooling**.
+I'm a software engineer who likes building clean, reliable web apps and contributing to the tools developers rely on every day.
 
-- 🛠️ Active core contributor shipping PRs to **Vercel Next.js**, **Astro**, **Hono**, **Colinhacks Zod**, and **Drizzle ORM**.
-- ⚡ Deep production expertise across **TypeScript**, **Next.js**, **Node.js**, **Python**, **Java EE**, and **PostgreSQL**.
-- 🚀 Builder of production platforms across fintech trading, e-commerce, enterprise SaaS, and AI automation.
+- 🛠️ **Open Source**: Actively fixing bugs, improving edge-case handling, and shipping PRs to **Next.js**, **Cal.com**, **Astro**, **Prisma**, and **HMIS**.
+- ⚡ **Daily Stack**: TypeScript, React, Next.js, TanStack, Node.js, Python, PostgreSQL, and Tailwind CSS.
+- 🎯 **Engineering Focus**: Type safety, sub-millimeter UI alignment, sensible database schemas, and writing code that is straightforward to debug six months later.
 
 </td>
 <td valign="top" width="42%">
@@ -42,17 +42,17 @@ Full-stack engineer specializing in **high-performance web applications**, **dis
 
 <br/>
 
-### 🌍 &nbsp;Core Open-Source Contributions
+### 🌍 &nbsp;Open-Source Contributions & Fixes
 
 ```diff
-+ vercel/next.js            ESLint plugin — accurate app directory path resolution
-+ withastro/astro           Core framework performance & compilation enhancements
++ hmislk/hmis               5 PRs merged: inward admissions, DOB formatting, whitespace guards, JSF fixes
++ vercel/next.js            App directory path resolution in ESLint plugin, standalone server fixes
++ calcom/cal.diy            I18n string cleanup, booking overlay timezone alignment, accessibility fixes
++ withastro/astro           Component-rendered link tags in island output, route generator fallback
++ prisma/orm                Windows backslash path normalization in config loader
 + honojs/hono               Modern edge web standards & router fixes
 + colinhacks/zod            TypeScript schema validation & inference patches
 + drizzle-team/drizzle-orm  High-performance SQL query builder optimizations
-+ calcom/cal.diy            Global scheduling & enterprise calendar infrastructure
-+ formbricks/formbricks     Open-source user feedback & survey platform fixes
-+ hmislk/hmis               Hospital Management System — pharmacy valuation logic
 ```
 
 <br/>
@@ -64,9 +64,24 @@ Full-stack engineer specializing in **high-performance web applications**, **dis
 <tr>
 <td valign="top" width="50%">
 
+### 📐 &nbsp;[Interior Support](https://github.com/praveen-kumary/interior-support)
+**Client-Side Interior Quality & PMC Platform**  
+End-to-end fiduciary platform coordinating interior fit-out inspections across Bengaluru. Features 60+ real site audits, 120-point quality framework, and sub-millimeter joinery tolerance audits.
+
+<br/>
+
+<img src="https://img.shields.io/badge/TanStack%20Router-FF4154?style=flat-square&logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript%205.x-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+
+</td>
+<td valign="top" width="50%">
+
 ### 🏍️ &nbsp;[MotoTribe](https://github.com/praveen-kumary/mototribe)
 **India's Motorcycle Marketplace & Rider Community**  
-Multi-seller motorcycle e-commerce, Reddit-style riding communities, virtual bike garage, and group ride event coordination.
+Community-driven platform for motorcycle riders in India. Includes multi-seller gear & bike marketplace, community discussion boards, virtual garage tracker, and group ride event coordination.
 
 <br/>
 
@@ -77,51 +92,35 @@ Multi-seller motorcycle e-commerce, Reddit-style riding communities, virtual bik
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
 
 </td>
+</tr>
+<tr>
 <td valign="top" width="50%">
 
 ### ⚡ &nbsp;[TradeFlow Platform](https://github.com/praveen-kumary/tradeflow-automation-platform)
 **Event-Driven Automated Trading Engine**  
-High-throughput algorithmic trading backend with isolated execution workers, TimescaleDB OHLCV persistence, Redis pub/sub streaming, and Next.js cockpit.
+Algorithmic trading backend with worker execution queues, TimescaleDB for sub-second OHLCV time-series persistence, Redis pub/sub order streaming, and a live Next.js monitoring dashboard.
 
 <br/>
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Timescale-FDB515?style=flat-square&logoColor=000" />
+<img src="https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logoColor=000" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
 <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white" />
 
 </td>
-</tr>
-<tr>
 <td valign="top" width="50%">
 
 ### 🤖 &nbsp;[JobsFlow AI](https://github.com/praveen-kumary/jobsflow-ai-aggregator)
-**AI-Powered Job Aggregation & Extraction Pipeline**  
-Multi-source job scraper with two-stage `pg_trgm` fuzzy deduplication, Claude Batch API structured skill extraction, and Turborepo monorepo architecture.
+**Job Aggregation & Extraction Pipeline**  
+Multi-board job scraper with PostgreSQL `pg_trgm` fuzzy matching to eliminate duplicate postings, batch structured skill extraction, and a fast Turborepo search frontend.
 
 <br/>
 
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Claude%20AI-D97706?style=flat-square&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white" />
 <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-
-</td>
-<td valign="top" width="50%">
-
-### 🏢 &nbsp;[Workforce OS](https://github.com/praveen-kumary/workforce-os)
-**Unified Enterprise HR & Zero-Trust IT Fleet Platform**  
-Consolidated workforce operating system combining real-time payroll, automated compliance, and zero-trust IT device management in one single-pane dashboard.
-
-<br/>
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Next.js%2015-000?style=flat-square&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
 
 </td>
 </tr>
@@ -129,13 +128,12 @@ Consolidated workforce operating system combining real-time payroll, automated c
 <td valign="top" width="50%">
 
 ### 📈 &nbsp;[ProfitMax Algo](https://github.com/praveen-kumary/profitmax-algo-trading)
-**ML-Powered Algorithmic Trading for NSE Nifty 50**  
-Production trading framework featuring 15+ automated quantitative strategies, XGBoost signal scoring, 7-layer risk safeguards, and live broker execution.
+**Quantitative Trading Engine for Indian Markets**  
+Backtesting and execution system running automated rule-based and machine-learning strategies on NSE Nifty 50 symbols, featuring strict position sizing and drawdown stop rules.
 
 <br/>
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/XGBoost-15803D?style=flat-square" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
@@ -144,8 +142,8 @@ Production trading framework featuring 15+ automated quantitative strategies, XG
 <td valign="top" width="50%">
 
 ### 🎬 &nbsp;[CineDhoom](https://github.com/praveen-kumary/cinedhoom)
-**Pan-Indian OTT & Movie Discovery Experience**  
-Streaming guide & cinema discovery hub tracking releases and reviews across Telugu, Tamil, Kannada, Malayalam, Bollywood, and Hollywood titles.
+**Pan-Indian Cinema Discovery Hub**  
+Movie discovery platform tracking theatrical releases, streaming availability, and community ratings across Telugu, Tamil, Kannada, Malayalam, and Hindi cinema.
 
 <br/>
 
