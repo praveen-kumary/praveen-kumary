@@ -45,14 +45,14 @@ I'm a software engineer who likes building clean, reliable web apps and contribu
 ### 🌍 &nbsp;Open-Source Contributions & Fixes
 
 ```diff
-+ hmislk/hmis               5 PRs merged: inward admissions, DOB formatting, whitespace guards, JSF fixes
-+ vercel/next.js            App directory path resolution in ESLint plugin, standalone server fixes
-+ calcom/cal.diy            I18n string cleanup, booking overlay timezone alignment, accessibility fixes
-+ withastro/astro           Component-rendered link tags in island output, route generator fallback
-+ prisma/orm                Windows backslash path normalization in config loader
-+ honojs/hono               Modern edge web standards & router fixes
-+ colinhacks/zod            TypeScript schema validation & inference patches
-+ drizzle-team/drizzle-orm  High-performance SQL query builder optimizations
++ calcom/cal.diy            Unused WhatsApp workflow strings (#30447) [MERGED]
++ hmislk/hmis               5 PRs merged: inward admissions, DOB formatting, whitespace guards, JSF fixes (#24898 - #24902) [MERGED]
++ withastro/flue            Local sandbox Windows environment allowlist fix (#892)
++ hmislk/hmis               Nurse view items and value Excel export fix (#24944)
++ vercel/next.js            App directory path resolution in ESLint plugin (#100775), standalone server fixes (#100814)
++ withastro/astro           Component-rendered link tags in island output (#18535), route generator fallback (#18531)
++ prisma/orm                Windows backslash path normalization in config loader (#30889)
++ calcom/cal.diy            Bookings overlay busy times & schedule accessibility (#30425, #30424)
 ```
 
 <br/>
