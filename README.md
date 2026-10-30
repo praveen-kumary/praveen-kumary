@@ -47,11 +47,13 @@ I'm a software engineer who likes building clean, reliable web apps and contribu
 ```diff
 + calcom/cal.diy            Unused WhatsApp workflow strings (#30447) [MERGED]
 + hmislk/hmis               5 PRs merged: inward admissions, DOB formatting, whitespace guards, JSF fixes (#24898 - #24902) [MERGED]
-+ withastro/flue            Local sandbox Windows environment allowlist fix (#892)
-+ hmislk/hmis               Nurse view items and value Excel export fix (#24944)
++ prisma/orm                SQLite startTransaction mutex leak fix (#30911), Windows path normalization (#30889)
++ sveltejs/kit              Reject binary remote form with empty file offsets (#17579)
++ TanStack/query            Skip redundant success dispatch on identical setQueryData (#12462)
++ withastro/flue            Transaction rollback guard (#893), message metadata (#894), image read tool (#895)
++ hmislk/hmis               Remove broken Antibiotics button (#24954), channel credit & reschedule bookings (#24955)
 + vercel/next.js            App directory path resolution in ESLint plugin (#100775), standalone server fixes (#100814)
 + withastro/astro           Component-rendered link tags in island output (#18535), route generator fallback (#18531)
-+ prisma/orm                Windows backslash path normalization in config loader (#30889)
 + calcom/cal.diy            Bookings overlay busy times & schedule accessibility (#30425, #30424)
 ```
 
