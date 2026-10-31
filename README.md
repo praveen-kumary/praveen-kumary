@@ -47,10 +47,8 @@ I'm a software engineer who likes building clean, reliable web apps and contribu
 ```diff
 + sveltejs/kit              Reject binary remote form with empty file offsets (#17579) [MERGED]
 + calcom/cal.diy            Unused WhatsApp workflow strings (#30447) [MERGED]
-+ hmislk/hmis               5 PRs merged: inward admissions, DOB formatting, whitespace guards, JSF fixes (#24898 - #24902) [MERGED]
++ hmislk/hmis               11 PRs merged: admissions, bills, reschedules, pharmacy, validation exceptions (#24898 - #24902, #24989 - #24994) [MERGED]
 + prisma/orm                Serialize queries in transactions (#30930), SQLite mutex leak (#30911), glob normalization (#30889)
-+ hmislk/hmis               Unwrapped validation errors via @ApplicationException (#24992, #24993, #24994)
-+ hmislk/hmis               Reschedule booking linkage (#24989), final bill discharge reprint (#24990)
 + TanStack/query            Skip redundant success dispatch on identical setQueryData (#12462)
 + withastro/flue            Transaction rollback guard (#893), message metadata (#894), image read tool (#895)
 + hmislk/hmis               Remove broken Antibiotics button (#24954), channel credit & reschedule bookings (#24955)
@@ -83,7 +81,7 @@ I'm a software engineer who likes building clean, reliable web apps and contribu
 
 ---
 
-#### 3. Enterprise Java / HMIS — Transactional Rollback Semantics via `@ApplicationException` ([#24992](https://github.com/hmislk/hmis/pull/24992), [#24993](https://github.com/hmislk/hmis/pull/24993), [#24994](https://github.com/hmislk/hmis/pull/24994))
+#### 3. Enterprise Java / HMIS — Transactional Rollback Semantics via `@ApplicationException` ([#24992](https://github.com/hmislk/hmis/pull/24992), [#24993](https://github.com/hmislk/hmis/pull/24993), [#24994](https://github.com/hmislk/hmis/pull/24994)) · <kbd>MERGED</kbd>
 - **The Challenge**: In high-throughput hospital inventory and patient record services, invalid operational states (e.g. GRN approval with zero claimed items, patient record unmerges, cross-department requisition rejections) threw generic checked exceptions that failed to trigger container-managed EJB transaction rollbacks, leading to partial writes and database inconsistency.
 - **Root Cause**: Standard Java exceptions caught inside JSF controllers bypassed container transaction demarcation unless explicitly annotated.
 - **Resolution**: Created domain-specific business exceptions (`PatientMergeException`, `GrnApprovalException`, `ItemRequestException`) decorated with `@ApplicationException(rollback = true)`. This guarantees container-level rollback of all dirty JPA entity managers while surfacing clean, actionable localized UI error messages to hospital clinicians.
