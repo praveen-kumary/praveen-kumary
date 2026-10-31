@@ -61,6 +61,48 @@ I'm a software engineer who likes building clean, reliable web apps and contribu
 
 <br/>
 
+<details open>
+<summary><b>🔬 &nbsp;Engineering Deep Dives & Systems Internals &nbsp;<i>(Click to expand / collapse)</i></b></summary>
+<br/>
+
+<table>
+<tr>
+<td>
+
+#### 1. SvelteKit — Remote Form Binary Stream Boundary Validation ([#17579](https://github.com/sveltejs/kit/pull/17579)) · <kbd>MERGED</kbd>
+- **The Challenge**: Malformed multipart form submissions containing non-printable character sequences and empty file slice byte offsets caused the SvelteKit Node adapter request parser to hang or produce unhandled stream rejections during server action dispatch.
+- **Root Cause**: The stream decoder assumed boundary termination headers always contained contiguous CRLF delimiters without verifying against 0-byte sliced offsets on chunk boundaries.
+- **Resolution**: Implemented early stream offset validation guarding against empty binary offsets prior to payload decoding, throwing a well-formed 400 Bad Request instead of choking the stream handler.
+
+---
+
+#### 2. Prisma ORM — Connection Socket Serialization in `@prisma/adapter-pg` ([#30930](https://github.com/prisma/orm/pull/30930))
+- **The Challenge**: Under heavy concurrency during active database transactions, Node Postgres (`pg`) emitted deprecation warnings: *"Calling client.query() while another query is in progress is deprecated"*.
+- **Root Cause**: `adapter-pg` passed incoming transaction queries directly to the underlying `pg.Client` without queue serialization, causing rapid async queries inside `$transaction` to overlap on the same raw TCP socket.
+- **Resolution**: Engineered a promise-chained query queue directly inside the transaction driver wrapper, ensuring every query in the transaction resolves sequentially while maintaining non-blocking asynchronous pipeline flow. Verified across 56/56 Vitest integration test suites.
+
+---
+
+#### 3. Enterprise Java / HMIS — Transactional Rollback Semantics via `@ApplicationException` ([#24992](https://github.com/hmislk/hmis/pull/24992), [#24993](https://github.com/hmislk/hmis/pull/24993), [#24994](https://github.com/hmislk/hmis/pull/24994))
+- **The Challenge**: In high-throughput hospital inventory and patient record services, invalid operational states (e.g. GRN approval with zero claimed items, patient record unmerges, cross-department requisition rejections) threw generic checked exceptions that failed to trigger container-managed EJB transaction rollbacks, leading to partial writes and database inconsistency.
+- **Root Cause**: Standard Java exceptions caught inside JSF controllers bypassed container transaction demarcation unless explicitly annotated.
+- **Resolution**: Created domain-specific business exceptions (`PatientMergeException`, `GrnApprovalException`, `ItemRequestException`) decorated with `@ApplicationException(rollback = true)`. This guarantees container-level rollback of all dirty JPA entity managers while surfacing clean, actionable localized UI error messages to hospital clinicians.
+
+---
+
+#### 4. TanStack Query — Redundant Dispatch Bypass on Deep-Equality Cache Update ([#12462](https://github.com/TanStack/query/pull/12462))
+- **The Challenge**: Calling `queryClient.setQueryData` with an identical data structure repeatedly triggered observer re-renders and subscriber callback cascades across downstream React components.
+- **Root Cause**: The query state transition machine emitted a `success` action regardless of whether the incoming state reference or deep structural clone had mutated.
+- **Resolution**: Introduced a fast reference and shallow identity pre-check in `setQueryData` action dispatching to skip redundant notifications when cached data is functionally unchanged, cutting unnecessary DOM re-renders in heavy client dashboards.
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<br/>
+
 ### 🚀 &nbsp;Featured Projects &nbsp;·&nbsp; Engineering Portfolio
 
 <div align="center">
@@ -74,6 +116,7 @@ End-to-end fiduciary platform coordinating interior fit-out inspections across B
 
 <br/>
 
+<a href="https://github.com/praveen-kumary/interior-support/actions/workflows/ci.yml"><img src="https://github.com/praveen-kumary/interior-support/actions/workflows/ci.yml/badge.svg" /></a>
 <img src="https://img.shields.io/badge/TanStack%20Router-FF4154?style=flat-square&logo=react&logoColor=white" />
 <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
