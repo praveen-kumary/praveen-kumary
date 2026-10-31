@@ -45,10 +45,12 @@ I'm a software engineer who likes building clean, reliable web apps and contribu
 ### 🌍 &nbsp;Open-Source Contributions & Fixes
 
 ```diff
++ sveltejs/kit              Reject binary remote form with empty file offsets (#17579) [MERGED]
 + calcom/cal.diy            Unused WhatsApp workflow strings (#30447) [MERGED]
 + hmislk/hmis               5 PRs merged: inward admissions, DOB formatting, whitespace guards, JSF fixes (#24898 - #24902) [MERGED]
-+ prisma/orm                SQLite startTransaction mutex leak fix (#30911), Windows path normalization (#30889)
-+ sveltejs/kit              Reject binary remote form with empty file offsets (#17579)
++ prisma/orm                Serialize queries in transactions (#30930), SQLite mutex leak (#30911), glob normalization (#30889)
++ hmislk/hmis               Unwrapped validation errors via @ApplicationException (#24992, #24993, #24994)
++ hmislk/hmis               Reschedule booking linkage (#24989), final bill discharge reprint (#24990)
 + TanStack/query            Skip redundant success dispatch on identical setQueryData (#12462)
 + withastro/flue            Transaction rollback guard (#893), message metadata (#894), image read tool (#895)
 + hmislk/hmis               Remove broken Antibiotics button (#24954), channel credit & reschedule bookings (#24955)
