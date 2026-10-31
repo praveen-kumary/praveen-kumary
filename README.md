@@ -110,18 +110,18 @@ I'm a software engineer who likes building clean, reliable web apps and contribu
 <tr>
 <td valign="top" width="50%">
 
-### 📐 &nbsp;[Interior Support](https://github.com/praveen-kumary/interior-support)
-**Client-Side Interior Quality & PMC Platform**  
-End-to-end fiduciary platform coordinating interior fit-out inspections across Bengaluru. Features 60+ real site audits, 120-point quality framework, and sub-millimeter joinery tolerance audits.
+### 💼 &nbsp;[Workforce OS](https://github.com/praveen-kumary/workforce-os)
+**Unified Enterprise HR, Zero-Trust IT & Finance Platform**  
+Modular enterprise operating system consolidating employee lifecycle management, Zero-Trust device fleet security, automated payroll runs, and BullMQ worker queues.
 
 <br/>
 
-<a href="https://github.com/praveen-kumary/interior-support/actions/workflows/ci.yml"><img src="https://github.com/praveen-kumary/interior-support/actions/workflows/ci.yml/badge.svg" /></a>
-<img src="https://img.shields.io/badge/TanStack%20Router-FF4154?style=flat-square&logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript%205.x-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js%2020-339933?style=flat-square&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
+<img src="https://img.shields.io/badge/BullMQ-CC0000?style=flat-square&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 
 </td>
 <td valign="top" width="50%">
