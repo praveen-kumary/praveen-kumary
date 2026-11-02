@@ -45,9 +45,9 @@ I'm a software engineer who likes building clean, reliable web apps and contribu
 ### 🌍 &nbsp;Open-Source Contributions & Fixes
 
 ```diff
-+ sveltejs/kit              Reject binary remote form with empty file offsets (#17579) [MERGED]
++ sveltejs/kit              Restore reload scroll before afterNavigate without SSR (#17599), empty file offsets (#17579) [MERGED]
 + calcom/cal.diy            Unused WhatsApp workflow strings (#30447) [MERGED]
-+ hmislk/hmis               11 PRs merged: admissions, bills, reschedules, pharmacy, validation exceptions (#24898 - #24902, #24989 - #24994) [MERGED]
++ hmislk/hmis               13 PRs merged: admissions, bills, reschedules, pharmacy, validation exceptions (#24898 - #24902, #24989 - #24994, #25028, #25029) [MERGED]
 + prisma/orm                Serialize queries in transactions (#30930), SQLite mutex leak (#30911), glob normalization (#30889)
 + TanStack/query            Skip redundant success dispatch on identical setQueryData (#12462)
 + withastro/flue            Transaction rollback guard (#893), message metadata (#894), image read tool (#895)
