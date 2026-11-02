@@ -6,7 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/praveenkumary.com-040806?style=for-the-badge&logoColor=00ff66&logo=globe)](https://praveenkumary.com)&nbsp;&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-040806?style=for-the-badge&logoColor=00ff66&logo=github)](https://github.com/praveen-kumary)&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-040806?style=for-the-badge&logoColor=00ff66&logo=linkedin)](https://linkedin.com/in/praveen-kumary)&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-040806?style=for-the-badge&logoColor=00ff66&logo=linkedin)](https://www.linkedin.com/in/praveenkumary-dev/)&nbsp;&nbsp;
 [![Email](https://img.shields.io/badge/Contact-040806?style=for-the-badge&logoColor=00ff66&logo=gmail)](mailto:praveenkumar2000y@gmail.com)
 
 </div>
