@@ -107,7 +107,7 @@ Movie discovery platform and streaming guide across regional and international c
 
 I contribute bug fixes, edge-case handling, and improvements across various open-source projects:
 
-- **[hmislk/hmis](https://github.com/hmislk/hmis)** — Hospital Management System: EMR, channelling, and pharmacy modules (7 merged PRs)
+- **[hmislk/hmis](https://github.com/hmislk/hmis)** — Hospital Management System: EMR, channelling, and pharmacy modules (8 merged PRs)
 - **[sveltejs/kit](https://github.com/sveltejs/kit)** — SvelteKit core framework and Node adapter (merged PR)
 - **[withastro/astro](https://github.com/withastro/astro)** — Island components, hydration, and routing
 - **[prisma/orm](https://github.com/prisma/orm)** — Driver adapters, query serialization, and schema tooling
