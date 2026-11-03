@@ -107,11 +107,12 @@ Movie discovery platform and streaming guide across regional and international c
 
 I contribute bug fixes, edge-case handling, and improvements across various open-source projects:
 
-- **[sveltejs/kit](https://github.com/sveltejs/kit)** — SvelteKit core framework and Node adapter
+- **[hmislk/hmis](https://github.com/hmislk/hmis)** — Hospital Management System: EMR, channelling, and pharmacy modules (7 merged PRs)
+- **[sveltejs/kit](https://github.com/sveltejs/kit)** — SvelteKit core framework and Node adapter (merged PR)
 - **[withastro/astro](https://github.com/withastro/astro)** — Island components, hydration, and routing
 - **[prisma/orm](https://github.com/prisma/orm)** — Driver adapters, query serialization, and schema tooling
 - **[vercel/next.js](https://github.com/vercel/next.js)** — Next.js ESLint plugin and standalone server runtime
-- **[calcom/cal.diy](https://github.com/calcom/cal.diy)** — Scheduling UI, timezone handling, and accessibility
+- **[calcom/cal.diy](https://github.com/calcom/cal.diy)** — Scheduling UI, timezone handling, and accessibility (merged PR)
 
 <br/>
 
