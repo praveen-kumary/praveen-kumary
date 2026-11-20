@@ -107,12 +107,12 @@ Movie discovery platform and streaming guide across regional and international c
 
 I contribute bug fixes, edge-case handling, and improvements across various open-source projects:
 
-- **[hmislk/hmis](https://github.com/hmislk/hmis)** — Hospital Management System: EMR, channelling, and pharmacy modules (41 merged PRs, 1 active PR)
-- **[withastro/astro](https://github.com/withastro/astro)** — Island components, hydration, CSS scoping, and routing (3 merged PRs)
-- **[sveltejs/kit](https://github.com/sveltejs/kit)** — SvelteKit core framework, binary forms, and link preloads (1 merged PR, 4 active PRs)
+- **[hmislk/hmis](https://github.com/hmislk/hmis)** — Hospital Management System: EMR, channelling, and pharmacy modules (41 merged PRs, 2 active PRs)
+- **[withastro/astro](https://github.com/withastro/astro)** — Island components, hydration, CSS scoping, and routing (3 merged PRs, 1 active PR)
+- **[sveltejs/kit](https://github.com/sveltejs/kit)** — SvelteKit core framework, binary forms, and link preloads (1 merged PR, 2 active PRs)
 - **[calcom/cal.diy](https://github.com/calcom/cal.diy)** — Scheduling UI, timezone handling, and accessibility (1 merged PR, 3 active PRs)
 - **[vercel/next.js](https://github.com/vercel/next.js)** — Next.js ESLint plugin, static params conflict detection, and standalone runtime (3 active PRs)
-- **[prisma/orm](https://github.com/prisma/orm)** — Driver adapters, query serialization, and schema tooling (6 active PRs)
+- **[prisma/orm](https://github.com/prisma/orm)** — Driver adapters, query serialization, and schema tooling (1 merged PR, 3 active PRs)
 
 <br/>
 
